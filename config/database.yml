@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  host: postgresql
   database: entorno-react-api_production
   username: entorno-react-api
   password: <%= ENV['ENTORNO-REACT-API_DATABASE_PASSWORD'] %>
